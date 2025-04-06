@@ -70,6 +70,9 @@ Use **Redux**, **Context API**, or **Zustand** to manage:
 - User authentication status.
 - Recipe data (fetching, updating, deleting).
 - Favorites list.
+  ![Screenshot (657)](https://github.com/user-attachments/assets/5dbc4a37-4517-4d02-a62a-67b4f0aa6f76)
+![Screenshot (656)](https://github.com/user-attachments/assets/d1800375-96db-4e1d-97eb-2873f218fdad)
+
 
 ---
 
@@ -84,7 +87,7 @@ Use **Redux**, **Context API**, or **Zustand** to manage:
 
 5. **Social Sharing**  
    Add mock buttons to share recipes on social media.
-   ![image](https://github.com/user-attachments/assets/0a8b2ddb-bf5a-47a4-a318-d5e21f12427b)
+   ![Screenshot (654)](https://github.com/user-attachments/assets/b7aa8612-72a2-4094-95c8-151f18171c89)
 
 
 7. **Advanced Filtering**  
