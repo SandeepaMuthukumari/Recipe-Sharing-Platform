@@ -37,6 +37,10 @@ This assignment tests your ability to handle dynamic data, user interactions, an
 - Navigate to a **dedicated page** for each recipe using React Router.
 - Display: **Ingredients, step-by-step instructions**, and a **"Save to Favorites"** button.
 
+![Screenshot (643)](https://github.com/user-attachments/assets/b4b36b4b-59ca-4adb-b2d1-aedee64035f5)
+![Screenshot (644)](https://github.com/user-attachments/assets/dee7ec5e-ab92-4829-b9d2-1dced2d042e3)
+
+
 #### 3. User Authentication (Mock)
 - Create a simple **login/signup flow** (no backend required).
 - Store mock user data (e.g., **username, saved recipes**) in localStorage.
