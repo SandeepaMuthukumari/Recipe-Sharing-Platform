@@ -25,9 +25,11 @@ This assignment tests your ability to handle dynamic data, user interactions, an
 - Display a **grid/list of recipes** fetched from a mock API.
 - Each recipe card shows: **Title, Cooking Time, Rating, and Image**.
 - Include a **search bar** to filter recipes by title or ingredient.
-
-![Screenshot (640)](https://github.com/user-attachments/assets/7cceacd6-095f-472f-adc6-8fed5c47ffb1)
+  
+![Screenshot (641)](https://github.com/user-attachments/assets/92920f19-bd29-47f4-9b7c-83add30880ad)
 ![Screenshot (639)](https://github.com/user-attachments/assets/ccdafe24-ccec-4086-8647-6ee91301173b)
+![Screenshot (640)](https://github.com/user-attachments/assets/7cceacd6-095f-472f-adc6-8fed5c47ffb1)
+
 
 
 #### 2. Recipe Details Page
