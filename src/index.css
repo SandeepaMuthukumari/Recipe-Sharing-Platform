@@ -1,0 +1,104 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 98%;
+    --foreground: 20 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 15% 15%;
+
+    --primary: 24 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 100% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 30 10% 92%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 20 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 20 15% 80%;
+    --input: 20 15% 80%;
+    --ring: 24 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 15% 15%;
+    --foreground: 30 10% 92%;
+
+    --card: 20 15% 17%;
+    --card-foreground: 30 10% 92%;
+
+    --popover: 20 15% 17%;
+    --popover-foreground: 30 10% 92%;
+
+    --primary: 24 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 100% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 12 6% 25%;
+    --muted-foreground: 24 5% 65%;
+
+    --accent: 20 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 12 6% 25%;
+    --input: 12 6% 25%;
+    --ring: 24 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .recipe-card {
+    @apply relative overflow-hidden rounded-lg border bg-card text-card-foreground shadow transition-all hover:shadow-md;
+  }
+  
+  .recipe-image {
+    @apply aspect-video w-full object-cover;
+  }
+  
+  .recipe-card-content {
+    @apply flex flex-col gap-2 p-4;
+  }
+  
+  .recipe-title {
+    @apply truncate text-lg font-semibold;
+  }
+  
+  .recipe-meta {
+    @apply flex items-center gap-4 text-sm text-muted-foreground;
+  }
+  
+  .recipe-tag {
+    @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+  }
+}
