@@ -112,12 +112,6 @@ Use **Redux**, **Context API**, or **Zustand** to manage:
 
 ---
 
-## 📝 Notes
-- Keep your code **modular and readable**.
-- Ensure **responsive design** for mobile and desktop.
-- Add **error boundaries** or try/catch for API requests.
-
----
 
 
 
